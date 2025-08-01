@@ -577,4 +577,11 @@ body {
     .menu-section h2 {
         font-size: 1.75rem;
     }
+    /* Ajuste de imágenes de la galería */
+    .gallery img,
+    .gallery-item img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
 }
